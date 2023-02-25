@@ -1,0 +1,117 @@
+.logo {
+  height: 150px; }
+
+.imglogo {
+  width: 330px; }
+
+header {
+  background-color: #a37661;
+  padding: 10px 20px 20px 20px; }
+
+.barra-botones {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.boton {
+  margin: 15px;
+  padding: 10px;
+  font-size: 20px; }
+
+.caja-imagen-home {
+  padding: 20px; }
+
+.imagen-home {
+  width: 100%;
+  padding: 20px;
+  object-fit: cover;
+  object-position: bottom; }
+
+.epigrafe-imagen-home {
+  background-color: #a37661;
+  border-radius: 20px;
+  padding: 20px; }
+
+.btn-three {
+  color: #FFF;
+  transition: all 0.5s;
+  position: relative; }
+
+.btn-three::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-color: rgba(255, 255, 255, 0.1);
+  transition: all 0.3s; }
+
+.btn-three:hover::before {
+  opacity: 0;
+  transform: scale(0.5, 0.5); }
+
+.btn-three::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0;
+  transition: all 0.3s;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  transform: scale(1.2, 1.2); }
+
+.btn-three:hover::after {
+  opacity: 1;
+  transform: scale(1, 1); }
+
+.btn {
+  line-height: 50px;
+  height: 50px;
+  text-align: center;
+  width: 20%;
+  cursor: pointer; }
+
+.fondo-carta {
+  width: 100%;
+  height: 100%; }
+
+.texto-carta {
+  color: #020202;
+  margin: 30px;
+  padding: 30px;
+  background-color: #fcecd9; }
+
+.body-carta {
+  background-color: #020202; }
+
+.texto-nosotros {
+  background-color: #a37661;
+  border-radius: 20px;
+  padding: 20px; }
+
+.texto-contactos {
+  background-color: #a37661;
+  border-radius: 20px;
+  margin: 50px; }
+
+.body-color {
+  background-color: #fcecd9; }
+
+.img-mapa {
+  width: 250px;
+  border-radius: 20px;
+  border-color: black; }
+
+.box-mapa {
+  background-color: #a37661;
+  margin: 50px;
+  border-radius: 20px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center; }

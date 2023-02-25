@@ -1,0 +1,49 @@
+$(window).load(function() {
+	// INICIA LA APP
+
+	//LOAD SLIDER HOME
+	$('#slider-principal').nivoSlider({
+		effect: 'sliceDown',
+		slices: 3,
+		boxCols: 8,
+		boxRows: 4,
+		animSpeed: 700,
+		pauseTime: 4000,
+		startSlide: 0,
+		directionNav: true,
+		controlNav: false,
+		controlNavThumbs: false,
+		pauseOnHover: true,
+		manualAdvance: false,
+		prevText: '',
+		nextText: '',
+		randomStart: false,
+		beforeChange: function(){},
+		afterChange: function(){},
+		slideshowEnd: function(){},
+		lastSlide: function(){},
+		afterLoad: function(){}
+	});
+		/* -effect-
+		sliceDown
+		sliceDownLeft
+		sliceUp
+		sliceUpLeft
+		sliceUpDown
+		sliceUpDownLeft
+		fold
+		fade
+		random
+		slideInRight
+		slideInLeft
+		boxRandom
+		boxRain
+		boxRainReverse
+		boxRainGrow
+		boxRainGrowReverse
+*/
+    // SCROLL TO TOP
+    $().UItoTop({ easingType: 'easeOutQuart' });
+
+
+});

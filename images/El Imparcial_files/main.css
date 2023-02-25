@@ -1,0 +1,25 @@
+@import 'Bootstrap_files/bootstrap.css';
+@import 'Bootstrap_files/bootstrap.css.map';
+@import 'Bootstrap_files/bootstrap.min.css';
+@import 'Bootstrap_files/bootstrap-theme.css';
+@import 'Bootstrap_files/bootstrap-theme.min.css';
+@import 'Bootstrap_files/bootstrap-theme.css.map';
+
+@import 'default/default.css';
+
+@import 'animate/animate.css';
+
+@import 'nivo-slider/nivo-slider.css';
+
+@import 'lightbox/lightbox.min.css';
+
+@import 'font-awesome/font-awesome.min.css';
+
+@import 'common/_responsive.css';
+@import 'common/_reset.css';
+@import 'common/_common-classes.css';
+
+@import '_inicio.css';
+@import '_footer.css';
+@import '_global-header.css';
+@import '_main-navigation.css';
